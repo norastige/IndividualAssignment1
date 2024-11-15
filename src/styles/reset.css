@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navbar-links a{
+    text-decoration: none;
+}
+
+.navbar-links a:visited{
+    color: var(--text-color);
+}

@@ -1,0 +1,135 @@
+body {
+  min-height: 100vh;
+  font-size: var(--font-size-small);
+  font-family: "bicyclette", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  margin: var(--spacing-medium);
+}
+
+main {
+  flex-grow: 1;
+}
+
+/*Header Styling*/
+header {
+  width: 100%;
+  display: flex;
+}
+
+.navbar-container {
+  height: var(--spacing-medium);
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  max-width: 78px;
+  height: auto;
+}
+
+.navbar-links {
+  display: flex;
+  justify-content: right;
+  font-weight: 3050;
+}
+
+.navbar-links li {
+  margin-left: 50px;
+}
+
+/*Hover Styling*/
+a :hover {
+  color: var(--hover-color);
+}
+
+/*Footer Styling*/
+footer {
+  width: 100%;
+  display: flex;
+}
+
+.footer-container {
+  height: var(--spacing-large);
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  max-width: 78px;
+  height: auto;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: right;
+}
+
+.footer-links li {
+  margin-left: 50px;
+}
+
+.footer-links a {
+  color: var(--text-color);
+}
+
+.footer-links a:visited {
+  color: var(--link-corlo);
+}
+
+/* Hover Others have also bought */
+.card-text_1 p {
+  padding-top: var(--spacing-xsmall);
+}
+
+.card-text_2 p {
+  padding-top: var(--spacing-xsmall);
+}
+
+.card-text_3 p {
+  padding-top: var(--spacing-xsmall);
+}
+
+.card-text_4 p {
+  padding-top: var(--spacing-xsmall);
+}
+
+.linoprint-linen_card:hover {
+  cursor: pointer;
+}
+
+.picture-1:hover {
+  scale: 103%;
+}
+
+.linoprint-flower_card:hover {
+  cursor: pointer;
+}
+
+.picture-2:hover {
+  scale: 103%;
+}
+.scandi-card:hover {
+  cursor: pointer;
+}
+
+.picture-3:hover {
+  scale: 103%;
+}
+
+.cards-.cards-card {
+  cursor: pointer;
+}
+
+.picture-4:hover {
+  scale: 103%;
+}

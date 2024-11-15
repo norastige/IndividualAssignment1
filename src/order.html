@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="https://use.typekit.net/yul3kxg.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/bpd5ubd.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/bpd5ubd.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/order.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <div class="navbar-container">
+        <a href="./index.html"
+          ><img
+            class="navbar-logo"
+            src="./assets/icons/logosymbol.png"
+            alt="Logosymbol"
+        /></a>
+        <nav>
+          <ul class="navbar-links">
+            <li><a href="./index.html">Collection</a></li>
+            <li>
+              <a href="./order.html"><u>Shopping Cart</u></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!--Main Content-->
+    <main>
+      <!--Hero-Section-->
+      <section class="finish-order-section">
+        <div class="hero-section">
+          <h1>Fullfør Bestilling</h1>
+          <p>
+            You can complete your order for the items in your cart by filling
+            out the form below. Please ensure all required information is
+            provided. Thank you for shopping - I appreciate your support!
+          </p>
+        </div>
+
+        <div class="three-buttons_orderpage">
+          <a href="./index.html"
+            ><button class="step-1">Get inspired</button></a
+          >
+          <a href="./products.html"><button class="step-2">Add info</button></a>
+          <button class="step-3">Place Order</button>
+        </div>
+      </section>
+
+      <section class="main-content_order">
+        <div class="order-details">
+          <div class="order-form">
+            <!--Form-->
+
+            <form id="form">
+              <div class="name">
+                <p>Name</p>
+                <label for="firstname"></label>
+                <input
+                  type="text"
+                  id="firstname"
+                  placeholder="e.g. Clara"
+                  maxlength="12"
+                  required
+                  name="firstname"
+                />
+
+                <label for="lastname"></label>
+                <input
+                  type="text"
+                  id="lastname"
+                  placeholder="e.g. Clarkson"
+                  maxlength="30"
+                  minlength="5"
+                  required
+                  name="lastname"
+                />
+              </div>
+
+              <div class="epost-phone">
+                <p>Email Address</p>
+                <label for="email"></label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="e.g. clara.clarkson@email.com"
+                  minlength="10"
+                  required
+                  name="email"
+                />
+
+                <p>Phone Number</p>
+                <label for="phone"></label>
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="e.g. 12345678"
+                  required
+                  name="phone"
+                />
+              </div>
+
+              <div class="address">
+                <div class="address-field">
+                  <p>Address</p>
+                  <p class="small-text">Road Name</p>
+                  <label for="address"></label>
+                  <input
+                    type="text"
+                    id="address"
+                    placeholder="e.g. Thiroadishome 11"
+                    required
+                    name="address"
+                  />
+                </div>
+
+                <div class="code-place_address">
+                  <div class="postcode-div">
+                    <p class="small-text">Post Code</p>
+                    <label for="postcode"></label>
+                    <input
+                      type="number"
+                      id="postcode"
+                      placeholder="e.g. 1122"
+                      required
+                      name="postcode"
+                      min="0000"
+                    />
+                  </div>
+
+                  <div class="place-div">
+                    <p class="small-text">City</p>
+                    <label for="place"></label>
+                    <input
+                      type="text"
+                      id="place"
+                      placeholder="e.g. Oslo"
+                      required
+                      name="place"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <div class="discount">
+                <label for="discount">Discount</label>
+                <br />
+                <input type="text" name="discount" id="discount" />
+              </div>
+
+              <div class="accept-conditions_checkbox">
+                <label for="accept-conditions"
+                  >Payment Details are Correct</label
+                >
+                <input type="checkbox" required name="checkbox" id="checkbox" />
+
+                <br />
+
+                <button class="order-button">Place Order</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="order-summary">
+            <div class="summary-picture"></div>
+            <div class="product-decription">
+              <ul class="list">
+                <li>Product</li>
+                <li>Size S</li>
+                <li>50$</li>
+              </ul>
+
+              <ul class="list-two">
+                <li>T-shirt with Bee Print</li>
+                <br />
+                <li>
+                  Maskinvask kald, innside ut, for å bevare trykkets kvalitet
+                  over tid. T-skjortene er laget av 100% bomull for komfort og
+                  pusteevne.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Section with navigation-->
+      <section class="navigation-section_product">
+        <div class="continue-shopping">
+          <div class="navigation">
+            <div class="go-back">
+              <a href="../src/index.html">
+                <h3>Shop more</h3>
+              </a>
+              <h1>Others Have Also Bought</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Section Others Have Bought-->
+      <section class="others-have_bought">
+        <div class="other-products">
+          <div class="linoprint-linen_card">
+            <div class="picture-1"></div>
+
+            <div class="card-text_1">
+              <p>Linoprint Linen</p>
+              <p>100$</p>
+            </div>
+          </div>
+
+          <div class="linoprint-flower_card">
+            <div class="picture-2"></div>
+
+            <div class="card-text_2">
+              <p>Linoprint Flower</p>
+              <p>35$</p>
+            </div>
+          </div>
+
+          <div class="scandi-card">
+            <div class="picture-3"></div>
+
+            <div class="card-text_3">
+              <p>Scandi Sweater</p>
+              <p>100$</p>
+            </div>
+          </div>
+
+          <div class="cards-card">
+            <div class="picture-4"></div>
+
+            <div class="card-text_4">
+              <p>Flower Cards</p>
+              <p>5$</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer>
+      <div class="footer-container">
+        <img
+          class="footer-logo"
+          src="./assets/icons/Hovedlogo Sort.png"
+          alt="Studio Stige Logo"
+        />
+
+        <ul class="footer-links">
+          <a href="https://www.instagram.com/studiostige/"
+            ><li>Instagram</li></a
+          >
+          <a href="https://www.linkedin.com/in/norastige/"><li>LinkedIn</li></a>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

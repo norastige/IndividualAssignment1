@@ -1,0 +1,132 @@
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+/*Hero Section*/
+.hero-section {
+  padding: var(--spacing-large);
+}
+
+.hero-section h1 {
+  font-size: var(--font-size-large);
+}
+
+/*Grid Styling*/
+.grid-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: var(--font-size-large);
+}
+
+.grid-container_products {
+  width: 93%;
+  height: 1100px;
+  display: grid;
+  gap: var(--spacing-medium);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.grid-container_item1 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-image: url(../assets/images/bie_blackandwhite.PNG);
+  background-size: cover;
+}
+
+.grid-container_item2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-image: url(../assets/images/flowerprint.jpeg);
+  background-size: cover;
+}
+
+.grid-container_item3 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background-image: url(../assets/images/linoprint_linen.jpeg);
+  background-size: cover;
+}
+
+.grid-container_item4 {
+  grid-column: 4/5;
+  grid-row: 1/2;
+  background-image: url(../assets/images/linoprint_haugerudcollection.jpeg);
+  background-size: cover;
+}
+
+.grid-container_item5 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background-image: url(../assets/images/blomst_tskjorte.JPG);
+  background-size: cover;
+}
+
+.grid-container_item6 {
+  grid-column: 1/2;
+  grid-row: 2/3;
+  background-image: url(../assets/images/scandi_sweater.JPG);
+  background-size: cover;
+}
+
+.grid-container_item7 {
+  grid-column: 3/4;
+  grid-row: 2/3;
+  background-image: url(../assets/images/linoprint_yellow.jpeg);
+  background-size: cover;
+}
+
+.grid-container_item8 {
+  grid-column: 4/5;
+  grid-row: 2/3;
+  background-image: url(../assets/images/markedsbilde.jpeg);
+  background-size: cover;
+}
+
+/*Artist Statement*/
+.artist-statement {
+  padding-top: var(--spacing-medium);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.artist-statement-div {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: var(--spacing-large);
+}
+
+.artist-statement-div h2,
+p {
+  text-align: center;
+  line-height: var(--spacing-large);
+}
+
+/*To the top button*/
+.to-the_top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  cursor: pointer;
+}
+
+button {
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+  border-radius: 150px;
+  color: white;
+  border: 2px solid red;
+  background-color: red;
+  font-family: Bicyclette, sans-serif;
+}
+
+.button-hover :hover {
+  color: white;
+  border: 2px solid white;
+}

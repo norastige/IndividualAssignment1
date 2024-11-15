@@ -1,0 +1,17 @@
+:root {
+  /*Spacing*/
+  --spacing-xsmall: 0.5rem;
+  --spacing-small: 1rem;
+  --spacing-medium: 2rem;
+  --spacing-large: 4rem;
+
+  /*Colors*/
+  --hover-color: red;
+  --link-corlo: red;
+  --text-color: black;
+
+  /*Font Size*/
+  --font-size-small: 18px;
+  --font-size-medium: 24px;
+  --font-size-large: 48px;
+}
