@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/variables.css" />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/product.css" />
     <link rel="stylesheet" href="./styles/order.css" />
   </head>
   <body>
@@ -38,7 +39,7 @@
       <!--Hero-Section-->
       <section class="finish-order-section">
         <div class="hero-section">
-          <h1>Fullfør Bestilling</h1>
+          <h1>Place Your Order</h1>
           <p>
             You can complete your order for the items in your cart by filling
             out the form below. Please ensure all required information is
@@ -63,6 +64,7 @@
             <form id="form">
               <div class="name">
                 <label for="firstname">Name</label>
+                <br />
                 <input
                   type="text"
                   id="firstname"
@@ -70,6 +72,7 @@
                   maxlength="50"
                   required
                   name="firstname"
+                  class="input"
                 />
 
                 <label for="lastname"></label>
@@ -78,9 +81,10 @@
                   id="lastname"
                   placeholder="e.g. Clarkson"
                   maxlength="30"
-                  minlength="5"
+                  minlength="2"
                   required
                   name="lastname"
+                  class="input"
                 />
               </div>
 
@@ -91,9 +95,10 @@
                   type="email"
                   id="email"
                   placeholder="e.g. clara.clarkson@email.com"
-                  minlength="10"
+                  minlength="5"
                   required
                   name="email"
+                  class="input"
                 />
 
                 <p>Phone Number</p>
@@ -104,6 +109,7 @@
                   placeholder="e.g. 12345678"
                   required
                   name="phone"
+                  class="input"
                 />
               </div>
 
@@ -118,6 +124,7 @@
                     placeholder="e.g. Thiroadishome 11"
                     required
                     name="address"
+                    class="input"
                   />
                 </div>
 
@@ -132,6 +139,7 @@
                       required
                       name="postcode"
                       min="0000"
+                      class="input"
                     />
                   </div>
 
@@ -144,6 +152,7 @@
                       placeholder="e.g. Oslo"
                       required
                       name="place"
+                      class="input"
                     />
                   </div>
                 </div>
@@ -152,14 +161,25 @@
               <div class="discount">
                 <label for="discount">Discount</label>
                 <br />
-                <input type="text" name="discount" id="discount" />
+                <input
+                  type="text"
+                  name="discount"
+                  id="discount"
+                  class="input"
+                />
               </div>
 
               <div class="accept-conditions_checkbox">
                 <label for="accept-conditions"
                   >Payment Details are Correct</label
                 >
-                <input type="checkbox" required name="checkbox" id="checkbox" />
+                <input
+                  type="checkbox"
+                  required
+                  name="checkbox"
+                  id="checkbox"
+                  class="input"
+                />
 
                 <br />
 
@@ -206,39 +226,57 @@
       </section>
 
       <!--Section Others Have Bought-->
+      <!--Others have bought-->
       <section class="others-have_bought">
         <div class="other-products">
-          <div class="linoprint-linen_card">
-            <div class="picture-1"></div>
+          <div class="card">
+            <div class="pictures">
+              <img
+                src="./assets/images/linoprint_linen.jpeg"
+                alt="Lino Print Linen"
+              />
+            </div>
 
-            <div class="card-text_1">
+            <div class="card-text">
               <p>Linoprint Linen</p>
               <p>100$</p>
             </div>
           </div>
 
-          <div class="linoprint-flower_card">
-            <div class="picture-2"></div>
+          <div class="card">
+            <div class="pictures">
+              <img
+                src="./assets/images/blomst_tskjorte.JPG"
+                alt="Flower T-shirt"
+              />
+            </div>
 
-            <div class="card-text_2">
+            <div class="card-text">
               <p>Linoprint Flower</p>
               <p>35$</p>
             </div>
           </div>
 
-          <div class="scandi-card">
-            <div class="picture-3"></div>
+          <div class="card">
+            <div class="pictures">
+              <img
+                src="./assets/images/scandi_sweater.JPG"
+                alt="Scandi Sweater"
+              />
+            </div>
 
-            <div class="card-text_3">
+            <div class="card-text">
               <p>Scandi Sweater</p>
               <p>100$</p>
             </div>
           </div>
 
-          <div class="cards-card">
-            <div class="picture-4"></div>
+          <div class="card">
+            <div class="pictures">
+              <img src="./assets/images/flowerprint.jpeg" alt="Flower Cards" />
+            </div>
 
-            <div class="card-text_4">
+            <div class="card-text">
               <p>Flower Cards</p>
               <p>5$</p>
             </div>

@@ -31,12 +31,6 @@
   border: 2px solid red;
 }
 
-.step-1:hover {
-  cursor: pointer;
-  color: white;
-  scale: 103%;
-}
-
 .step-2 {
   width: 100px;
   height: 48px;
@@ -44,12 +38,6 @@
   color: white;
   background-color: red;
   border: 2px solid red;
-}
-
-.step-2:hover {
-  cursor: pointer;
-  color: white;
-  scale: 103%;
 }
 
 .step-3 {
@@ -61,10 +49,16 @@
   border: 2px solid red;
 }
 
+.step-1:hover,
+.step-2:hover,
 .step-3:hover {
   cursor: pointer;
-  color: var(--link-corlo);
+  color: white;
   scale: 103%;
+}
+
+.step-3:hover {
+  color: var(--link-corlo);
 }
 
 /*Styling Order Form*/
@@ -142,64 +136,30 @@ p {
   width: 100%;
 }
 
-#firstname {
+.input {
   border: 1.5px solid black;
   border-radius: 40px;
   height: 40px;
-  width: 150px;
   padding: var(--spacing-small);
   margin-right: var(--spacing-xsmall);
   background-color: white;
   color: black;
+  margin-bottom: var(--spacing-medium);
+}
+
+#firstname {
+  width: 150px;
 }
 
 #lastname {
-  border: 1.5px solid black;
-  border-radius: 40px;
-  height: 40px;
-  width: 200px;
-  padding: var(--spacing-small);
-  margin-bottom: var(--spacing-small);
-  background-color: white;
-  color: black;
+  width: 285px;
 }
 
-#email {
-  border: 1.5px solid black;
-  border-radius: 40px;
-  height: 40px;
-  width: 370px;
-  background-color: white;
-  color: black;
-  padding: var(--spacing-small);
-  margin-bottom: var(--spacing-medium);
-}
-
-#phone {
-  border: 1.5px solid black;
-  border-radius: 40px;
-  height: 40px;
-  width: 370px;
-  background-color: white;
-  color: black;
-  padding: var(--spacing-small);
-  margin-bottom: var(--spacing-medium);
-}
-
-.address {
-  width: 100%;
-  height: 200px;
-}
-
-#address {
-  border: 1.5px solid black;
-  border-radius: 40px;
-  height: 40px;
-  width: 370px;
-  background-color: white;
-  color: black;
-  padding: var(--spacing-small);
-  margin-bottom: var(--spacing-xsmall);
+#email,
+#phone,
+#address,
+#discount {
+  width: 450px;
 }
 
 .code-place_address {
@@ -208,42 +168,11 @@ p {
 }
 
 #postcode {
-  border: 1.5px solid black;
-  border-radius: 40px;
-  height: 40px;
-  width: 100px;
-  background-color: white;
-  color: black;
-  padding: var(--spacing-small);
-  margin-bottom: var(--spacing-medium);
-  margin-right: var(--spacing-xsmall);
+  width: 123px;
 }
 
 #place {
-  border: 1.5px solid black;
-  border-radius: 40px;
-  height: 40px;
-  width: 258px;
-  background-color: white;
-  color: black;
-  padding: var(--spacing-small);
-  margin-bottom: var(--spacing-medium);
-}
-
-.discount {
-  width: 100%;
-  height: 90px;
-}
-
-#discount {
-  border: 1.5px solid black;
-  border-radius: 40px;
-  height: 40px;
-  width: 370px;
-  background-color: white;
-  color: black;
-  padding: var(--spacing-small);
-  margin-bottom: var(--spacing-xsmall);
+  width: 320px;
 }
 
 .accept-conditions_checkbox {
@@ -314,95 +243,12 @@ p {
 }
 
 /*Styling navigation links*/
-.go-back a {
-  text-decoration: none;
-}
-
+.go-back a,
 .add-to_cart a {
   text-decoration: none;
 }
 
-.go-back a:visited {
-  color: var(--text-color);
-}
-
+.go-back a:visited,
 .add-to_cart a:visited {
   color: var(--text-color);
-}
-
-/*Others have bought*/
-.others-have_bought {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 600px;
-  margin-bottom: var(--spacing-large);
-}
-
-.other-products {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 93%;
-}
-
-.linoprint-linen_card {
-  width: 22%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.picture-1 {
-  background-image: url(../assets/images/linoprint_linen.jpeg);
-  background-size: cover;
-  width: 100%;
-  height: 440px;
-}
-
-.linoprint-flower_card {
-  width: 22%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.picture-2 {
-  background-image: url(../assets/images/blomst_tskjorte.JPG);
-  background-size: cover;
-  width: 100%;
-  height: 440px;
-}
-
-.scandi-card {
-  width: 22%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.picture-3 {
-  background-image: url(../assets/images/scandi_sweater.JPG);
-  background-size: cover;
-  width: 100%;
-  height: 440px;
-}
-
-.cards-card {
-  width: 22%;
-  height: 500px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.picture-4 {
-  background-image: url(../assets/images/flowerprint_2.jpeg);
-  background-size: cover;
-  width: 100%;
-  height: 440px;
 }
