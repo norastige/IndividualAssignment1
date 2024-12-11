@@ -20,7 +20,7 @@ header {
   display: flex;
 }
 
-.navbar-container {
+.navbar__container {
   height: var(--spacing-medium);
   width: 100%;
   max-width: 1600px;
@@ -29,18 +29,18 @@ header {
   justify-content: space-between;
 }
 
-.navbar-logo {
+.navbar__logo {
   max-width: 78px;
   height: auto;
 }
 
-.navbar-links {
+.navbar__links {
   display: flex;
   justify-content: right;
   font-weight: 3050;
 }
 
-.navbar-links li {
+.navbar__links li {
   margin-left: 50px;
 }
 
@@ -55,7 +55,7 @@ footer {
   display: flex;
 }
 
-.footer-container {
+.footer__container {
   height: var(--spacing-large);
   width: 100%;
   max-width: 1600px;
@@ -64,72 +64,24 @@ footer {
   justify-content: space-between;
 }
 
-.footer-logo {
+.footer__logo {
   max-width: 78px;
   height: auto;
 }
 
-.footer-links {
+.footer__links {
   display: flex;
   justify-content: right;
 }
 
-.footer-links li {
+.footer__links li {
   margin-left: 50px;
 }
 
-.footer-links a {
+.footer__links a {
   color: var(--text-color);
 }
 
-.footer-links a:visited {
+.footer__links a:visited {
   color: var(--link-corlo);
-}
-
-/* Hover Others have also bought */
-.card-text_1 p {
-  padding-top: var(--spacing-xsmall);
-}
-
-.card-text_2 p {
-  padding-top: var(--spacing-xsmall);
-}
-
-.card-text_3 p {
-  padding-top: var(--spacing-xsmall);
-}
-
-.card-text_4 p {
-  padding-top: var(--spacing-xsmall);
-}
-
-.linoprint-linen_card:hover {
-  cursor: pointer;
-}
-
-.picture-1:hover {
-  scale: 103%;
-}
-
-.linoprint-flower_card:hover {
-  cursor: pointer;
-}
-
-.picture-2:hover {
-  scale: 103%;
-}
-.scandi-card:hover {
-  cursor: pointer;
-}
-
-.picture-3:hover {
-  scale: 103%;
-}
-
-.cards-.cards-card {
-  cursor: pointer;
-}
-
-.picture-4:hover {
-  scale: 103%;
 }

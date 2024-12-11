@@ -1,21 +1,21 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    text-decoration: none;
+body {
+  text-decoration: none;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
-.navbar-links a{
-    text-decoration: none;
+.navbar__links a {
+  text-decoration: none;
 }
 
-.navbar-links a:visited{
-    color: var(--text-color);
+.navbar__links a:visited {
+  color: var(--text-color);
 }

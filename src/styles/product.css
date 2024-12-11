@@ -1,14 +1,14 @@
 /*Styling of hero section*/
-.hero-section_productpage {
+.hero__section-productpage {
   padding: var(--spacing-large);
 }
 
-.hero-section_productpage h1 {
+.hero__section-productpage h1 {
   font-size: var(--font-size-large);
 }
 
 /*Styling of flexboks section*/
-.product-section {
+.product__section {
   height: 100vh;
   width: 100%;
   display: flex;
@@ -16,7 +16,7 @@
   align-items: center;
 }
 
-.centered-flexbox {
+.centered__flexbox {
   height: 900px;
   width: 93%;
   display: flex;
@@ -38,22 +38,14 @@
   flex-direction: row;
 }
 
-.list-one {
+.list__one,
+.list__two,
+.list__three {
   height: 140px;
   width: 33%;
 }
 
-.list-two {
-  height: 140px;
-  width: 33%;
-}
-
-.list-three {
-  height: 140px;
-  width: 30%;
-}
-
-.centered-picture_div {
+.centered__picture-div {
   width: 100%;
   max-width: 100%;
   height: 670px;
@@ -62,13 +54,13 @@
   align-items: center;
 }
 
-.centered-picture_div img {
+.centered__picture-div img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.container-size {
+.container__size {
   width: 100%;
   height: 90px;
   display: flex;
@@ -88,7 +80,7 @@ select {
   background-position: right 16px center;
 }
 
-.add-to_cartDiv {
+.add__to-cartDiv {
   width: 100%;
   height: 190px;
   display: flex;
@@ -107,7 +99,7 @@ select {
   color: black;
 }
 
-.add-to_cartButton {
+.add__to-cartButton {
   width: 100px;
   height: 48px;
   border-radius: 60px;
@@ -116,7 +108,7 @@ select {
   border: 2px solid red;
 }
 
-.centered-picture {
+.centered__picture {
   width: 50%;
   height: 480px;
   background-image: url(../assets/images/bie_noraola.JPG);
@@ -128,7 +120,7 @@ select {
   height: 900px;
 }
 
-.picture-right {
+.picture__right {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -136,7 +128,7 @@ select {
 }
 
 /*Styling navigation section*/
-.navigation-section_product {
+.navigation__section-product {
   height: 400px;
   width: 100%;
   display: flex;
@@ -145,7 +137,7 @@ select {
   margin-bottom: var(--spacing-medium);
 }
 
-.continue-shopping {
+.continue__shopping {
   width: 93%;
   height: 200px;
   display: flex;
@@ -158,7 +150,7 @@ select {
   width: 100%;
 }
 
-.go-back {
+.go__back {
   height: 100%;
   width: 100%;
   display: flex;
@@ -167,15 +159,15 @@ select {
   justify-content: center;
 }
 
-.go-back h3 {
+.go__back h3 {
   padding-bottom: var(--spacing-small);
 }
 
-.go-back h1 {
+.go__back h1 {
   font-size: 2.5rem;
 }
 
-.add-to_cart {
+.add__to-cart {
   height: 80px;
   width: 10%;
   display: flex;
@@ -183,31 +175,31 @@ select {
   justify-content: end;
 }
 
-.add-to_cartButton:hover {
+.add__to-cartButton:hover {
   cursor: pointer;
   color: white;
   scale: 103%;
 }
 
 /*Styling navigation links*/
-.go-back a {
+.go__back a {
   text-decoration: none;
 }
 
-.add-to_cart a {
+.add__to_cart a {
   text-decoration: none;
 }
 
-.go-back a:visited {
+.go__back a:visited {
   color: var(--text-color);
 }
 
-.add-to_cart a:visited {
+.add__to_cart a:visited {
   color: var(--text-color);
 }
 
 /*Others have bought*/
-.others-have_bought {
+.others__have-bought {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -216,7 +208,7 @@ select {
   margin-bottom: var(--spacing-large);
 }
 
-.other-products {
+.other__products {
   display: flex;
   flex-direction: row;
   justify-content: space-between;

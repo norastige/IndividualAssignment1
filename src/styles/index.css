@@ -4,23 +4,23 @@ main {
 }
 
 /*Hero Section*/
-.hero-section {
+.hero__section {
   padding: var(--spacing-large);
 }
 
-.hero-section h1 {
+.hero__section h1 {
   font-size: var(--font-size-large);
 }
 
 /*Grid Styling*/
-.grid-section {
+.grid__section {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: var(--font-size-large);
 }
 
-.grid-container_products {
+.grid__container-products {
   width: 93%;
   height: 1100px;
   display: grid;
@@ -29,74 +29,74 @@ main {
   grid-template-rows: repeat(2, 1fr);
 }
 
-.grid-container_products img {
+.grid__container-products img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.grid-container_item1 {
+.grid__container-item1 {
   grid-column: 1/2;
   grid-row: 1/2;
 }
 
-.grid-container_item2 {
+.grid__container-item2 {
   grid-column: 2/3;
   grid-row: 1/2;
 }
 
-.grid-container_item3 {
+.grid__container-item3 {
   grid-column: 3/4;
   grid-row: 1/2;
 }
 
-.grid-container_item4 {
+.grid__container-item4 {
   grid-column: 4/5;
   grid-row: 1/2;
 }
 
-.grid-container_item5 {
+.grid__container-item5 {
   grid-column: 2/3;
   grid-row: 2/3;
 }
 
-.grid-container_item6 {
+.grid__container-item6 {
   grid-column: 1/2;
   grid-row: 2/3;
 }
 
-.grid-container_item7 {
+.grid__container-item7 {
   grid-column: 3/4;
   grid-row: 2/3;
 }
 
-.grid-container_item8 {
+.grid__container-item8 {
   grid-column: 4/5;
   grid-row: 2/3;
 }
 
 /*Artist Statement*/
-.artist-statement {
+.artist__statement {
   padding-top: var(--spacing-medium);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.artist-statement-div {
+.artist__statement-div {
   justify-content: center;
   align-items: center;
   padding-bottom: var(--spacing-large);
 }
 
-.artist-statement-div h2,
+.artist__statement-div h2,
 p {
   text-align: center;
   line-height: var(--spacing-large);
 }
 
 /*To the top button*/
-.to-the_top {
+.to__the-top {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -116,7 +116,7 @@ button {
   font-family: Bicyclette, sans-serif;
 }
 
-.button-hover :hover {
+.button__hover :hover {
   color: white;
   border-color: red;
   cursor: pointer;
