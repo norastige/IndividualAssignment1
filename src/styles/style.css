@@ -1,7 +1,12 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../assets/fonts/Montserrat/Montserrat-SemiBold.ttf);
+}
+
 body {
   min-height: 100vh;
   font-size: var(--font-size-small);
-  font-family: "bicyclette", sans-serif;
+  font-family: "Montserrat-SemiBold", sans-serif;
   font-weight: 300;
   font-style: normal;
   color: black;
