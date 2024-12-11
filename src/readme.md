@@ -78,4 +78,4 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## Links
 
     - GitHub Repository: https://github.com/norastige/IndividualAssignment1.git
-    - Netlify Deployment:
+    - Netlify Deployment: https://6759bda2f0100a0c92237d72--sunny-kleicha-6bafd5.netlify.app/
